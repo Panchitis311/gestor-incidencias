@@ -35,7 +35,7 @@ services:
     image: ${FRONTEND_IMAGE}
     platform: linux/arm64
     ports:
-      - "127.0.0.1:${PUERTO_WEB}:80"
+      - "127.0.0.1:${PUERTO_WEB}:8080"
     depends_on:
       - backend
     networks:
